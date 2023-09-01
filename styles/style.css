@@ -272,9 +272,7 @@ body {
 }
 }
 
-
 /* Second  block  */
-
 .how-work__content {
   display: flex;
   flex-basis: calc((100% - 2*60px) / 3);
