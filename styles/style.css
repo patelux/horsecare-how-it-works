@@ -2,6 +2,7 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
+
 }
 
 /* HERO SECTION */
@@ -523,3 +524,72 @@ body {
   }
 }
 
+.contacts .container {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding-top: 80px;
+}
+.contacts-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}    
+.contact_title {
+  color: #333;
+  font-size: 42px;
+  letter-spacing: 1.6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contact_email_wrapper, .contact_tel_wrapper{
+ width: 50%;
+ color: #333;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ text-align: left;
+ position: relative;
+}
+.contact_subtitle {
+  color: #333;
+  font-size: 24px;
+  letter-spacing: 1.6px;
+  text-align: left;
+
+}
+span.material-symbols-outlined.email{
+  font-size: 64px;
+  color: goldenrod;
+  display: inline-block;
+  position: absolute;
+  top: -30%;
+  transform: translate(50%, 50%);
+  left: -25%;
+}
+span.material-symbols-outlined.tel{
+  font-size: 64px;
+  color: goldenrod;
+  display: inline-block;
+  position: absolute;
+  top: -10%;
+  transform: translate(50%, 50%);
+  left: -25%;
+}
+.contact_link_tel, .contact_link_mail {
+  display: inline-block;
+  font-family: inherit;
+  text-align: left;
+  color: #333;
+  font-size: 32px;
+  letter-spacing: 1.8px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  transition: all .3s ease;
+}    
+.contact_link_tel:hover, .contact_link_mail:hover {
+  color: goldenrod;
+  transform: scale(1.1);
+  font-weight: 600;
+}    
